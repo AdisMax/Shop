@@ -9,9 +9,7 @@
     public class ProductsViewModel : BaseViewModel
     {
         private readonly ApiService apiService;
-
         private ObservableCollection<Product> products;
-
         private bool isRefreshing;
 
         public ObservableCollection<Product> Products
